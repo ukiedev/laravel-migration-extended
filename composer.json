@@ -1,0 +1,30 @@
+{
+    "name": "ukiedev/laravel-migration-extended",
+    "description": "Extends default migration command for migrating specific or first migration",
+    "type": "project",
+    "require": {
+        "laravel/framework": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "dorian",
+            "email": "d.melnyk@tenantcloud.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\MigrationExtendedProvider"
+            ]
+        }
+    },
+
+}
