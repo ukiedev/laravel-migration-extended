@@ -1,7 +1,7 @@
 {
     "name": "ukiedev/laravel-migration-extended",
     "description": "Extends default migration command for migrating specific or first migration",
-    "type": "project",
+    "type": "library",
     "require": {
         "laravel/framework": "^5.5"
     },
